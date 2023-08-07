@@ -10,62 +10,19 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        background-color: rgb(0, 0, 33);
-        color: white;
-        font-family: Poppins, sans-serif;
-      }
-      nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 80px;
-        background-color: rgb(18, 18, 62);
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-      nav ul li {
-        list-style: none;
-        margin: 0 23px;
-      }
-      nav ul li a{
-        text-decoration: none;
-        color: white;
-      }
-      nav ul li a:hover{
-        color: lavender;
-        font-size: 1.02rem;
-      }
-      .left {
-        font-size: 1.5rem;
-      }
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        margin: 80px 0;
-      }
-      .firstSection > div {
-        width: 30%;
-      }
-      .leftSection {
-        font-size: 2.5rem;
-        margin: 30px 0;
-      }
-      .rightSection img {
-        width: 80%;
-        margin: 30px 0;
-      }
-      .color {
-        color: blueviolet;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -87,12 +44,69 @@
           Hi,My name is <br />
           <span class="color">Abdur Rasheed</span>
           <div>and I am passionate</div>
-          <div>Web Developer</div>
+          <span id="element"></span>
         </div>
         <div class="rightSection">
           <img src="Png.png" alt="pic" />
         </div>
       </section>
+      <div class="social">
+        <a
+          rel="noopener"
+          href="https://www.linkedin.com/in/abdur-rasheed-0813201aa"
+          aria-label="linkedin"
+          target="_blank"
+          class="social-icon"
+          data-aos="fade-down"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          rel="noopener"
+          rel="nofollow"
+          href="https://mail.google.com/mail/u/0/?hl=en-GB&tf=cm&fs=1&to=abd205200@gmail.com"
+          target="_blank"
+          aria-label="gmail"
+          class="social-icon"
+          data-aos="fade-down"
+          ><i class="bx bxl-gmail"></i
+        ></a>
+        <a
+          rel="noopener"
+          href="https://github.com/rasheed119"
+          aria-label="github"
+          target="_blank"
+          class="social-icon"
+          data-aos="fade-down"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          rel="noopener"
+          href="https://www.instagram.com/abdur_rasheed_"
+          aria-label="github"
+          target="_blank"
+          class="social-icon"
+          data-aos="fade-down"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          rel="noopener"
+          href="https://discordapp.com/users/573550393683083314"
+          aria-label="github"
+          target="_blank"
+          class="social-icon"
+          data-aos="fade-down"
+          ><i class="fa-brands fa-discord"></i
+        ></a>
+      </div>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
   </body>
 </html>
