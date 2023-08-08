@@ -22,7 +22,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -30,10 +30,10 @@
         <div class="left">Abdur Rasheed's Portfolio</div>
         <div class="right">
           <ul>
-            <li><a href="/" target="_blank">Home</a></li>
-            <li><a href="/" target="_blank">About</a></li>
-            <li><a href="/" target="_blank">Projects</a></li>
-            <li><a href="/" target="_blank">Contact me</a></li>
+            <li class="hvr-underline-from-left"><a href="#">Home</a></li>
+            <li class="hvr-underline-from-left"><a href="#About">About</a></li>
+            <li class="hvr-underline-from-left"><a href="/">Projects</a></li>
+            <li class="hvr-underline-from-left"><a href="/">Contact me</a></li>
           </ul>
         </div>
       </nav>
@@ -47,7 +47,7 @@
           <span id="element"></span>
         </div>
         <div class="rightSection">
-          <img src="Png.png" alt="pic" />
+          <img src="images/Png.png" class="hvr-bounce-out" alt="pic" />
         </div>
       </section>
       <div class="social">
@@ -98,6 +98,65 @@
           ><i class="fa-brands fa-discord"></i
         ></a>
       </div>
+      <hr data-aos="fade-down" id="About" />
+      <section class="SecondSection">
+        <h1 data-aos="fade-left" class="hvr-underline-from-center">
+          Education
+        </h1>
+        <div class="box" data-aos="fade-left">
+          <div class="vertical">
+            <img class="image-top" src="images/education.png" alt="" />
+            <div class="vertical-title">SSLC (2014-2015)</div>
+            <div class="vertical-description" data-aos="fade-up-right">
+              Done SSLC in Little Flower Matriculation Higher Secondary
+              School,Tirunelveli
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="images/education.png" alt="" />
+            <div class="vertical-title">HSC (2016-2017)</div>
+            <div class="vertical-description" data-aos="fade-down">
+              Done HSC in Rose Mary Matriculation Higher Secondary School,Ram
+              Nagar,Tirunelveli
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="images/education.png" alt="" />
+            <div class="vertical-title">
+              B.E.Mechanical Engineering (2017-2021)
+            </div>
+            <div class="vertical-description" data-aos="fade-up-left">
+              Done B.E Degree in Francis Xavier Engineering
+              College,Vanarapettai,Tirunelveli
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ThirdSection">
+        <div class="aboutimg">
+          <img
+            src="images/about.png"
+            data-aos="fade-right"
+            data-aos-delay="150"
+            alt="about"
+          />
+        </div>
+        <div class="aboutdescription" data-aos="fade-left" data-aos-delay="150">
+          <h2 style="margin-bottom: 20px">I'm Abdur Rasheed</h2>
+          <p>
+            Aspiring full stack developer with a passion for working on a
+            project that solves problems , giving great user experiences by
+            planning, developing, and debugging web applications. I primarily
+            work with MERN stack technologies, comfortable with
+            javascript,HTML/CSS,React,Express,Nodejs,MongoDB and framework like
+            Bootstrap and Material UI.
+          </p>
+        </div>
+      </section>
+      <hr data-aos="fade-down" />
+      <section class="projects">
+        <h1>Projects</h1>
+      </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="script.js"></script>
