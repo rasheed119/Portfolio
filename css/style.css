@@ -2,13 +2,6 @@
   margin: 0;
   padding: 0;
 }
-@media (max-width : 768px) {
-  .firstSection {
-    flex-direction: column-reverse;
-    width: 100%;
-    align-items: center;
-  }
-}
 html {
   scroll-behavior: smooth;
 }
@@ -58,7 +51,7 @@ main hr {
   width: 30%;
 }
 .leftSection {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin: auto 0;
 }
 .rightSection img {
@@ -133,7 +126,7 @@ main hr {
 .ThirdSection {
   display: flex;
   justify-content: space-around;
-  margin: 350px 0 0 0;
+  margin: 35px 0 150px 0;
 }
 .ThirdSection > div {
   width: 30%;
@@ -153,9 +146,9 @@ main hr {
   text-align: justify;
   font-family: Helvetica, Arial, sans-serif;
 }
-.projects{
-  max-width: 80vw;
-  margin: 0 auto;
+.skill-icon{
+  font-size: 5rem;
+  color: blueviolet;
 }
 .hvr-underline-from-center {
   display: inline-block;

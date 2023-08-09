@@ -6,8 +6,13 @@
     <title>Abdur Rasheed - Developer Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="images/portfolio.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link
@@ -22,6 +27,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -32,7 +43,12 @@
           <ul>
             <li class="hvr-underline-from-left"><a href="#">Home</a></li>
             <li class="hvr-underline-from-left"><a href="#About">About</a></li>
-            <li class="hvr-underline-from-left"><a href="/">Projects</a></li>
+            <li class="hvr-underline-from-left">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="hvr-underline-from-left">
+              <a href="#Project">Projects</a>
+            </li>
             <li class="hvr-underline-from-left"><a href="/">Contact me</a></li>
           </ul>
         </div>
@@ -47,7 +63,7 @@
           <span id="element"></span>
         </div>
         <div class="rightSection">
-          <img src="images/Png.png" class="hvr-bounce-out" alt="pic" />
+          <img src="images/Png.png" id="img" class="hvr-bounce-out" alt="pic" />
         </div>
       </section>
       <div class="social">
@@ -100,37 +116,7 @@
       </div>
       <hr data-aos="fade-down" id="About" />
       <section class="SecondSection">
-        <h1 data-aos="fade-left" class="hvr-underline-from-center">
-          Education
-        </h1>
-        <div class="box" data-aos="fade-left">
-          <div class="vertical">
-            <img class="image-top" src="images/education.png" alt="" />
-            <div class="vertical-title">SSLC (2014-2015)</div>
-            <div class="vertical-description" data-aos="fade-up-right">
-              Done SSLC in Little Flower Matriculation Higher Secondary
-              School,Tirunelveli
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="images/education.png" alt="" />
-            <div class="vertical-title">HSC (2016-2017)</div>
-            <div class="vertical-description" data-aos="fade-down">
-              Done HSC in Rose Mary Matriculation Higher Secondary School,Ram
-              Nagar,Tirunelveli
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="images/education.png" alt="" />
-            <div class="vertical-title">
-              B.E.Mechanical Engineering (2017-2021)
-            </div>
-            <div class="vertical-description" data-aos="fade-up-left">
-              Done B.E Degree in Francis Xavier Engineering
-              College,Vanarapettai,Tirunelveli
-            </div>
-          </div>
-        </div>
+        <h1 data-aos="fade-right" class="text-center mt-5 mb-5">About Me</h1>
       </section>
       <section class="ThirdSection">
         <div class="aboutimg">
@@ -154,17 +140,147 @@
         </div>
       </section>
       <hr data-aos="fade-down" />
-      <section class="projects">
-        <h1>Projects</h1>
+      <section class="container" id="skills">
+        <h3 class="text-center mb-5">Skills</h3>
+        <h3 class="text-center mb-3">FrontEnd Skills</h3>
+        <div class="container">
+          <div class="row m-3">
+            <div
+              class="col-md-12 col-sm-12 col-lg-6 ml-3 mt-3 mb-3 align-self-start"
+            >
+              <div class="card" data-aos="fade-right" style="width: 35rem">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <i class="bx bxl-html5 skill-icon"></i>
+                  </div>
+                  <div class="col-4 h3">HTML-5</div>
+                  <div class="col-4 h3">90%</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 col-sm-12 col-lg-6 ml-3 mt-3 mb-3 align-self-end"
+            >
+              <div class="card" data-aos="fade-up" style="width: 35rem">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <i class="bx bxl-css3 skill-icon"></i>
+                  </div>
+                  <div class="col-4 h3">CSS-3</div>
+                  <div class="col-4 h3">80%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row m-3">
+            <div
+              class="col-md-12 col-sm-12 col-lg-6 ml-3 mt-3 mb-3 align-self-start"
+            >
+              <div class="card" data-aos="fade-left" style="width: 35rem">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <i class="bx bxl-javascript skill-icon"></i>
+                  </div>
+                  <div class="col-4 h3">JavaScript</div>
+                  <div class="col-4 h3">85%</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 col-sm-12 col-lg-6 ml-3 mt-3 mb-3 align-self-end"
+            >
+              <div class="card" data-aos="fade-right" style="width: 35rem">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <i class="bx bxl-bootstrap skill-icon"></i>
+                  </div>
+                  <div class="col-4 h3">Bootstrap</div>
+                  <div class="col-4 h3">80%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row m-3">
+            <div
+              class="col-md-12 col-sm-12 col-lg-6 ml-3 mt-3 mb-3 align-self-start"
+            >
+              <div class="card" data-aos="fade-left" style="width: 35rem">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <i class="bx bxl-html5 skill-icon"></i>
+                  </div>
+                  <div class="col-4 h3">React js</div>
+                  <div class="col-4 h3">92%</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 col-sm-12 col-lg-6 ml-3 mt-3 mb-3 align-self-end"
+            >
+              <div class="card" data-aos="fade-down" style="width: 35rem">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <i class="bx bxl-redux skill-icon"></i>
+                  </div>
+                  <div class="col-4 h3">Redux</div>
+                  <div class="col-4 h3">75%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="text-center mt-5 mb-5">BackEnd Skills</h3>
+          <div class="row m-3">
+            <div
+              class="col-md-12 col-sm-12 col-lg-6 ml-3 mt-3 mb-3 align-self-start"
+            >
+              <div class="card" style="width: 35rem">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <img
+                      src="images/icons8-express-js-64.png"
+                      class=""
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-4 h3">Express JS</div>
+                  <div class="col-4 h3">95%</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 col-sm-12 col-lg-6 ml-3 mt-3 mb-3 align-self-end"
+            >
+              <div class="card" style="width: 35rem">
+                <div class="row align-items-center">
+                  <div class="col-4">
+                    <i class="bx bxl-mongodb skill-icon"></i>
+                  </div>
+                  <div class="col-4 h3">Mongo DB</div>
+                  <div class="col-4 h3">90%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script>
       AOS.init({
         duration: 1200,
         once: false,
+      });
+      var typed = new Typed("#element", {
+        strings: ["Web Developer"],
+        typeSpeed: 100,
       });
     </script>
   </body>
