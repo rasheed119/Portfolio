@@ -37,14 +37,29 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        style="position: fixed; width: 100%; top: 0; z-index: 1000"
+      >
         <div class="container-fluid">
-          <a class="navbar-brand" style="margin: 0 50px;" href="#">Abdur Rasheed</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" style="margin: 0 50px" href="#"
+            >Abdur Rasheed</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
             <ul class="navbar-nav ml-auto">
               <li class="nav-item hvr-underline-from-left">
                 <a class="nav-link" href="#">Home</a>
@@ -67,15 +82,24 @@
       </nav>
     </header>
     <main>
-      <section class="firstSection">
-        <div class="leftSection">
-          Hi,My name is <br />
-          <span class="color">Abdur Rasheed</span>
-          <div>and I am passionate</div>
-          <span id="element"></span>
-        </div>
-        <div class="rightSection">
-          <img src="images/Png.png" id="img" class="hvr-bounce-out" alt="pic" />
+      <section
+        class="container d-flex justify-content-around"
+        style="margin: 130px 0"
+      >
+        <div class="row">
+          <div class="col-lg-6 col-md-12 h1 mt-5" id="center" >
+            Hi,My name is <br />
+            <span class="color">Abdur Rasheed</span>
+            <div>and I am passionate</div>
+            <span id="element"></span>
+          </div>
+          <div class="col-lg-6 col-md-12 align-items-center"style="margin: 30px auto;">
+            <img
+              src="images/Png.png"
+              class="hvr-bounce-out"
+              alt="pic"
+            />
+          </div>
         </div>
       </section>
       <div class="social">
@@ -149,7 +173,7 @@
             data-aos-delay="150"
           >
             <h2 class="mb-4">I'm Abdur Rasheed</h2>
-            <p  >
+            <p>
               Aspiring full stack developer with a passion for working on a
               project that solves problems, giving great user experiences by
               planning, developing, and debugging web applications. I primarily

@@ -16,10 +16,21 @@ nav {
   justify-content: space-around;
   height: 80px;
   background-color: rgb(18, 18, 62);
-/*   position: fixed;
-  z-index: 1;
-  top: 0; */
+
   width: 100%;
+}
+.navbar-nav.justify-content-around {
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-right: auto; /* Pushes the brand to the left side */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 nav ul {
   display: flex;
@@ -42,7 +53,15 @@ main hr {
 .left {
   font-size: 1.5rem;
 }
-.firstSection {
+#center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#centerimg{
+  margin-left: 40px;
+}
+/* .firstSection {
   display: flex;
   justify-content: space-around;
   margin: 130px 0;
@@ -57,7 +76,7 @@ main hr {
 .rightSection img {
   width: 80%;
   margin: 30px 0;
-}
+} */
 .color {
   color: blueviolet;
 }
