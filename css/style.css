@@ -58,8 +58,10 @@ main hr {
   flex-direction: column;
   justify-content: center;
 }
-#centerimg{
-  margin-left: 40px;
+@media only screen and (max-width: 992px) {
+  #centerimg{
+    width: 100%;
+  }
 }
 /* .firstSection {
   display: flex;
