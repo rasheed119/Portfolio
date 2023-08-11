@@ -217,9 +217,14 @@ main hr {
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
-
-p {
-  color: #fff;
+#projects .card{
+  overflow: hidden;
+}
+#projects .card img{
+  transition: 0.5s all ease-in-out;
+}
+#projects .card:hover img,#projects .card:hover{
+  transform: scale(1.15);
 }
 
 h2 {
