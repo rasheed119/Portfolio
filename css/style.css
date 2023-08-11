@@ -10,14 +10,21 @@ body {
   color: white;
   font-family: Poppins, sans-serif;
 }
-/* nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 80px;
+.container .navbar-brand {
+  color: white;
+}
+#nav {
   background-color: rgb(18, 18, 62);
-  width: 100%;
-} */
+  color: white;
+  height: 80px;
+}
+#navbarNav ul li a {
+  color: white;
+}
+ul li a {
+  margin: 0 10px;
+  color: white;
+}
 main hr {
   border: 0;
   height: 1.2px;
@@ -37,22 +44,6 @@ main hr {
     width: 100%;
   }
 }
-/* .firstSection {
-  display: flex;
-  justify-content: space-around;
-  margin: 130px 0;
-}
-.firstSection > div {
-  width: 30%;
-}
-.leftSection {
-  font-size: 2.5rem;
-  margin: auto 0;
-}
-.rightSection img {
-  width: 80%;
-  margin: 30px 0;
-} */
 .color {
   color: blueviolet;
 }
@@ -132,6 +123,9 @@ main hr {
 }
 .aboutdescription {
   margin: auto 0;
+}
+.aboutdescription p {
+  line-height: 30px;
 }
 .ThirdSection img {
   float: left;
