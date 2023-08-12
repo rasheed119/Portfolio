@@ -76,7 +76,7 @@
                 <a class="nav-link" href="#Project">Projects</a>
               </li>
               <li class="nav-item hvr-underline-from-left">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contacts">Contact</a>
               </li>
             </ul>
           </div>
@@ -188,8 +188,8 @@
         </div>
       </section>
       <hr data-aos="fade-down" id="skills" />
-      <section class="container mt-3">
-        <h3 class="text-center mb-5">Skills</h3>
+      <section class="container">
+        <h3 class="text-center mb-5" style="padding-top: 3rem">Skills</h3>
         <h3 class="text-center mb-3">FrontEnd Skills</h3>
         <div class="container">
           <div class="row">
@@ -384,7 +384,7 @@
       </section>
       <hr data-aos="fade-down" id="Project" />
       <section class="container" data-aos="fade-right" id="projects">
-        <h3 class="text-center mt-5 mb-5">My Work</h3>
+        <h3 class="text-center mt-5 mb-5" style="padding-top: 3rem">My Work</h3>
         <div class="row">
           <div
             class="col-lg-4 col-md-12 col-sm-12 mt-3 mb-3 d-flex justify-content-center"
@@ -516,8 +516,8 @@
           </div>
         </div>
       </section>
-      <hr data-aos="fade-down" />
-      <footer class="container" id="contact">
+      <hr data-aos="fade-down" id="contacts" />
+      <div class="container" id="contact">
         <h3 class="text-center mt-5 mb-5">Contact</h3>
         <section class="row">
           <form
@@ -530,6 +530,7 @@
               name="Name"
               class="rounded border border-primary mt-3 mb-5 px-3 py-1"
               required
+              data-aos="fade-left"
               placeholder="Name"
               id="input"
               type="text"
@@ -539,6 +540,7 @@
               type="email"
               class="rounded border border-primary mb-5 px-3 py-1"
               required
+              data-aos="fade-right"
               placeholder="E-mail"
               id="input"
               name="email"
@@ -548,6 +550,7 @@
               type="text"
               class="rounded border border-primary mb-5 px-3 py-1"
               required
+              data-aos="fade-up"
               id="input"
               placeholder="Subject"
               name="Subject"
@@ -559,19 +562,42 @@
               rows="5"
               id="input"
               required
+              data-aos="fade-down"
               name="message"
             ></textarea>
 
             <!-- your other form fields go here -->
-            <button type="submit" class="btn btn-primary mt-2 mb-2">
-              Send
-            </button>
+            <div>
+              <button type="submit" class="btn btn-primary mt-2 mb-5">
+                Send
+              </button>
+              <button type="reset" class="btn btn-danger mt-2 mb-5">Reset Form</button>
+            </div>
           </form>
         </section>
-        <hr data-aos="fade-down" />
-        <section class="cointainer" style="height: 25vh;" >
-
-        </section>
+      </div>
+      <footer style="background-color: rgb(18, 18, 62)">
+        <div class="container">
+          <div class="row" style="padding: 4rem 0">
+            <div
+              class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mt-3 mb-3 h3"
+            >
+              <a href="#" class="text-decoration-none" style="color: white"
+                >Abdur Rasheed M</a
+              >
+            </div>
+            <div
+              class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mt-4 mb-4"
+            >
+              bdfb
+            </div>
+            <div
+              class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mt-4 mb-4"
+            >
+              fdb
+            </div>
+          </div>
+        </div>
       </footer>
     </main>
     <script
