@@ -39,8 +39,14 @@ main hr {
   flex-direction: column;
   justify-content: center;
 }
+#contact #input{
+  width: 50%;
+}
 @media only screen and (max-width: 992px) {
   #centerimg {
+    width: 100%;
+  }
+  #contact #input{
     width: 100%;
   }
 }
